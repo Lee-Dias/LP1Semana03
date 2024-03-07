@@ -15,8 +15,28 @@ namespace HeroPerks
         static void Main(string[] args)
         {
 
-
-            Console.WriteLine("Hello, World!");
+            Perks PlayerPerks = 0;
+        foreach (char c in args[0])
+        {
+            switch (c)
+            {
+                case 'w':
+                    PlayerPerks ^= Perks.WaterBreathing;
+                    break;
+                case 'a':
+                    PlayerPerks ^= Perks.AutoHeal;
+                    break;
+                case 's':
+                    PlayerPerks ^= Perks.Stealth;
+                    break;
+                case 'd':
+                    PlayerPerks ^= Perks.DoubleJump;
+                    break;
+                default:
+                    Console.WriteLine("Unknown perk!");
+                    return;
+            }
         }
     }
+}
 }
