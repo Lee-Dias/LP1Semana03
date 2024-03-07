@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RightSize", "RightSize\Righ
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChangeString", "ChangeString\ChangeString.csproj", "{6B1084D3-C62F-4DDA-9FF5-23F1CAB5F6D7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayMult", "ArrayMult\ArrayMult.csproj", "{BE7800AE-178C-4EC1-B5C2-7AF22D0F85DF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{6B1084D3-C62F-4DDA-9FF5-23F1CAB5F6D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B1084D3-C62F-4DDA-9FF5-23F1CAB5F6D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B1084D3-C62F-4DDA-9FF5-23F1CAB5F6D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE7800AE-178C-4EC1-B5C2-7AF22D0F85DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE7800AE-178C-4EC1-B5C2-7AF22D0F85DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE7800AE-178C-4EC1-B5C2-7AF22D0F85DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE7800AE-178C-4EC1-B5C2-7AF22D0F85DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
