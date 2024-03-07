@@ -1,0 +1,14 @@
+D:\LP1\LP1Semana03\RightSize\bin\Debug\net6.0\RightSize.exe
+D:\LP1\LP1Semana03\RightSize\bin\Debug\net6.0\RightSize.deps.json
+D:\LP1\LP1Semana03\RightSize\bin\Debug\net6.0\RightSize.runtimeconfig.json
+D:\LP1\LP1Semana03\RightSize\bin\Debug\net6.0\RightSize.dll
+D:\LP1\LP1Semana03\RightSize\bin\Debug\net6.0\RightSize.pdb
+D:\LP1\LP1Semana03\RightSize\obj\Debug\net6.0\RightSize.GeneratedMSBuildEditorConfig.editorconfig
+D:\LP1\LP1Semana03\RightSize\obj\Debug\net6.0\RightSize.AssemblyInfoInputs.cache
+D:\LP1\LP1Semana03\RightSize\obj\Debug\net6.0\RightSize.AssemblyInfo.cs
+D:\LP1\LP1Semana03\RightSize\obj\Debug\net6.0\RightSize.csproj.CoreCompileInputs.cache
+D:\LP1\LP1Semana03\RightSize\obj\Debug\net6.0\RightSize.dll
+D:\LP1\LP1Semana03\RightSize\obj\Debug\net6.0\refint\RightSize.dll
+D:\LP1\LP1Semana03\RightSize\obj\Debug\net6.0\RightSize.pdb
+D:\LP1\LP1Semana03\RightSize\obj\Debug\net6.0\RightSize.genruntimeconfig.cache
+D:\LP1\LP1Semana03\RightSize\obj\Debug\net6.0\ref\RightSize.dll
