@@ -20,7 +20,6 @@ namespace ChangeString
                 }
                 newstr += write;
             }
-
             Console.WriteLine(newstr);
 
         }
