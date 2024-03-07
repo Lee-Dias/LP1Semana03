@@ -35,7 +35,7 @@ namespace RPS
             }
             else
             {
-                return 2; // Player 2 wins
+                return 2; // Player 2 win
             }
         }
     }
