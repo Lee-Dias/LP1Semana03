@@ -20,6 +20,17 @@ namespace ArrayMult
                 }
                 b[k] = float.Parse(args[4 + k]);
             }
+            // multiplicação A * b
+            float[] result = new float[2];
+            for (int k = 0; k < 2; k++)
+            {
+                for (int j = 0; j < 2; j++)
+                {
+                    result[k] += A[k, j] * b[j];
+                }
+            }
+            Console.WriteLine($"{result[0]}");
+            Console.WriteLine($"{result[1]}");
 
         }
     }
