@@ -2,14 +2,7 @@
 
 namespace RPS
 {
-    [Flags]
-    enum GameItem
-    {
-        WaterBreathing = 1 << 0,
-        Stealth = 1 << 1,
-        AutoHeal = 1 << 2,
-        DoubleJump = 1 << 3
-    }
+
     class Program
     {
         private static void Main(string[] args)
@@ -31,22 +24,32 @@ namespace RPS
 
         private static int RockPaperScissors(string player1, string player2)
         {
-            int Value = 0;
-            if (player1 == player2)
+            GameItem FirstPlayer = (GameItem)Enum.Parse(typeof(GameItem),
+            player1);
+            GameItem SecondPlayer = (GameItem)Enum.Parse(typeof(GameItem),
+            player2);
+            
+            GameStatus d;
+            
+
+            if (FirstPlayer == SecondPlayer)
             {
-                Value = 0; // Draw
+                d = 0; // Draw
             }
-            else if (((player1 == "Rock") && (player2 == "Scissors")) ||
-                ((player1 == "Scissors") && (player2 == "Paper")) ||
-                ((player1 == "Paper") && (player2 == "Rock")))
+            else if (((FirstPlayer == GameItem.Rock) &&
+                (SecondPlayer == GameItem.Scissors)) ||
+                ((FirstPlayer == GameItem.Scissors) &&
+                (SecondPlayer == GameItem.Paper)) ||
+                ((FirstPlayer == GameItem.Paper) &&
+                (SecondPlayer == GameItem.Rock)))
             {
-                Value = 1; // Player 1 wins
+                d = GameStatus.Player1Wins; // Player 1 wins
             }
             else
             {
-                Value = 2; // Player 2 wins
+                d = GameStatus.Player2Wins; // Player 2 wins
             }
-            return Value;
+            return (int)d;
         }
     }
 }
