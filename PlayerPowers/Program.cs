@@ -7,14 +7,14 @@ namespace PlayerPowers
     {
         static void Main(string[] args)
         {
-            Powers PlayerPowers = 0;
+            
             
             Console.WriteLine("How many players will play?");
             string jogadores = Console.ReadLine();
             int n = int.Parse(jogadores);
-            int[] players = new int[n];
-            foreach (int p in players){
-                PlayerPowers = 0;
+            Powers[] PlayerPowers = new Powers[n];
+            for (int p = 0; p < PlayerPowers.Length; p++){
+                PlayerPowers[p] = 0;
                 Console.WriteLine("What are your powers? u can combine!!");
                 Console.WriteLine("Type 1 for Fly");
                 Console.WriteLine("Type 2 for XRayVision");
@@ -25,13 +25,13 @@ namespace PlayerPowers
                     switch (c)
                     {
                         case '1':
-                            PlayerPowers ^= Powers.Fly;
+                            PlayerPowers[p] ^= Powers.Fly;
                             break;
                         case '2':
-                            PlayerPowers ^= Powers.XRayVision;
+                            PlayerPowers[p] ^= Powers.XRayVision;
                             break;
                         case '3':
-                            PlayerPowers ^= Powers.SuperStrength;
+                            PlayerPowers[p] ^= Powers.SuperStrength;
                             break;
                         default:
                             break;
@@ -40,8 +40,8 @@ namespace PlayerPowers
 
             }
 
-            foreach(int k in players){
-                Console.WriteLine(PlayerPowers);
+            for (int k = 0; k < PlayerPowers.Length ; k++){
+                Console.WriteLine($"Player {k} Powers: {PlayerPowers[k]} ");
             }
         }
     }
