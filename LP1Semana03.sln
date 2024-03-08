@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FamousQuotes", "FamousQuote
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPS", "RPS\RPS.csproj", "{FC5306B5-B5D5-44A0-87EE-34F3C2D36118}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayerPowers", "PlayerPowers\PlayerPowers.csproj", "{0709CC48-EA68-4298-8D1B-288260AFB73D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{FC5306B5-B5D5-44A0-87EE-34F3C2D36118}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC5306B5-B5D5-44A0-87EE-34F3C2D36118}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC5306B5-B5D5-44A0-87EE-34F3C2D36118}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0709CC48-EA68-4298-8D1B-288260AFB73D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0709CC48-EA68-4298-8D1B-288260AFB73D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0709CC48-EA68-4298-8D1B-288260AFB73D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0709CC48-EA68-4298-8D1B-288260AFB73D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
